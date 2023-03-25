@@ -1,197 +1,88 @@
-<!DOCTYPE html>
-<html>
-	
-<head>
-	<title>SMATHS-Kids</title>
-	<style>
-		body {
-			background-color: #FFFFFF;
-			color: #000000;
-			font-family: Arial, sans-serif;
-			font-size: 16px;
-			line-height: 1.5;
-			margin: 0;
-			padding: 0;
-			<html lang="en">
-  <head>
-			
-		}
-		
-		header {
-			background-color: #002F6C;
-			color: #FFFFFF;
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
-			padding: 10px 20px;
-		}
-		
-		header img {
-			height: 50px;
-		}
-		
-		  <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SMATHS-Kids</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <img src="logo.png" alt="SMATHS-Kids logo">
-        <h1>SMATHS-Kids</h1>
-		
-		nav {
-			display: flex;
-			justify-content: center;
-			background-color: #FFFFFF;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-			padding: 10px 20px;
-		}
-		
-		nav a {
-			color: #002F6C;
-			text-decoration: none;
-			margin: 0 20px;
-		}
-		
-		nav a:hover {
-			color: #FFA500;
-		}
-		
-		main {
-			padding: 20px;
-			display: flex;
-			flex-wrap: wrap;
-			align-items: center;
-			justify-content: space-between;
-			max-width: 1200px;
-			margin: 0 auto;
-		}
-		
-		main h2 {
-			color: #FFA500;
-			margin-bottom: 20px;
-		}
-		
-		.card {
-			background-color: #FFFFFF;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-			border-radius: 5px;
-			padding: 20px;
-			margin-bottom: 20px;
-			flex-basis: calc(33.33% - 20px);
-			text-align: center;
-		}
-		
-		.card img {
-			height: 200px;
-			margin-bottom: 10px;
-		}
-		
-		.card h3 {
-			margin-bottom: 10px;
-			color: #002F6C;
-		}
-		
-		.card p {
-			margin-bottom: 20px;
-		}
-		
-		.card a {
-			display: inline-block;
-			background-color: #FFA500;
-			color: #FFFFFF;
-			padding: 10px 20px;
-			border-radius: 5px;
-			text-decoration: none;
-			transition: all 0.3s ease-in-out;
-		}
-		
-		.card a:hover {
-			background-color: #002F6C;
-		}
-		
-		.float-pop-up {
-			position: fixed;
-			bottom: 20px;
-			right: 20px;
-			background-color: #FFA500;
-			color: #FFFFFF;
-			padding: 20px;
-			border-radius: 5px;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-			z-index: 9999;
-			transition: all 0.3s ease-in-out;
-			transform: translateX(100%);
-		}
-		
-		.float-pop-up.show {
-			transform: translateX(0);
-		}
-		
-		.close {
-			position: absolute;
-			top: 5px;
-			right: 5px;
-			color: #FFFFFF
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SMATHS-Kids</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <img src="logo.png" alt="SMATHS-Kids logo">
-        <h1>SMATHS-Kids</h1>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#maths">Maths</a></li>
-          <li><a href="#science">Science</a></li>
-          <li><a href="#english">English</a></li>
-          <li><a href="#reasoning">Verbal and Quantitative Reasoning</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="home">
-        <h2>Welcome to SMATHS-Kids!</h2>
-        <p>We offer online learning for kids in Maths, Science, English, and Verbal and Quantitative Reasoning. Our engaging and interactive courses are designed to help your child succeed.</p>
-        <a href="#maths" class="cta">Get started now</a>
-      </section>
-      <section id="maths">
-        <h2>Maths</h2>
-        <p>Our Maths courses cover everything from basic arithmetic to advanced algebra and geometry. We use fun games and activities to help your child learn and master key concepts.</p>
-        <img src="maths.jpg" alt="Kids learning Maths">
-        <a href="#home" class="back">Back to home</a>
-      </section>
-      <section id="science">
-        <h2>Science</h2>
-        <p>Our Science courses cover Biology, Chemistry, and Physics. We use real-life examples and experiments to help your child understand the world around them.</p>
-        <img src="science.jpg" alt="Kids learning Science">
-        <a href="#home" class="back">Back to home</a>
-      </section>
-      <section id="english">
-        <h2>English</h2>
-        <p>Our English courses cover grammar, reading, and writing skills. We use interactive stories and games to help your child improve their language skills.</p>
-        <img src="english.jpg" alt="Kids learning English">
-        <a href="#home" class="back">Back to home</a>
-      </section>
-      <section id="reasoning">
-        <h2>Verbal and Quantitative Reasoning</h2>
-        <p>Our Reasoning courses cover Verbal and Quantitative Reasoning. We use puzzles and brain teasers to help your child develop critical thinking and problem-solving skills.</p>
-        <img src="reasoning.jpg" alt="Kids learning reasoning">
-        <a href="#home" class="back">Back to home</a>
-      </section>
-    </main>
-    <footer>
-      <div class="gallery">
-        <h3>Picture gallery</h3>
-        <img src="gallery1.jpg" alt="Kids learning">
-        <img src="gallery2.jpg" alt="Kids having fun">
-        <img src="gallery3.jpg" alt
+header {
+  background-color: orange;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #ccc;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+}
+
+.enroll-btn {
+  background-color: white;
+  color: orange;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.enroll-btn:hover {
+  background-color: #ccc;
+  color: white;
+}
+<section class="courses">
+  <h2>Courses</h2>
+  <div class="course-list">
+    <div class="course">
+      <h3>Basic Arithmetic</h3>
+      <p>A course for learning basic arithmetic operations.</p>
+      <a href="#" class="learn-more-btn">Learn More</a>
+    </div>
+    <div class="course">
+      <h3>Geometry</h3>
+      <p>A course for learning geometric shapes and calculations.</p>
+      <a href="#" class="learn-more-btn">Learn More</a>
+    </div>
+    <div class="course">
+      <h3>Algebra</h3>
+      <p>A course for learning algebraic equations and expressions.</p>
+      <a href="#" class="learn-more-btn">Learn More</a>
+    </div>
+    <div class="course">
+      <h3>Statistics</h3>
+      <p>A course for learning statistical concepts and calculations.</p>
+      <a href="#" class="learn-more-btn">Learn More</a>
+    </div>
+    <div class="course">
+      <h3>Calculus</h3>
+      <p>A course for learning calculus concepts and applications.</p>
+      <a href="#" class="learn-more-btn">Learn More</a>
+    </div>
+  </div>
+</section>
